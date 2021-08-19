@@ -29,7 +29,7 @@ class BudgetView(APIView):
         
         
         #получаем имена полей, находящиеся в элементе данных,
-        #полученных от api:
+        #полученных от внеш. api:
         actual_data_fields = get_actual_fields_names_in_apidata(renaming_fields, 
                                                                 select_by_fields)
         
